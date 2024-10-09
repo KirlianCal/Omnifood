@@ -351,3 +351,83 @@ ion-icon{
     border: 1px solid #cf6d17;
     color: #cf6d17;
 }
+.contact{
+    padding-bottom: 75px;
+}
+.form{
+    margin: auto; 
+    width: 40%;
+}
+
+.form div{
+    display: flex;
+    padding-bottom: 15px;
+}
+input[type=text],input[type=email],select,textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    float: right;
+}
+textarea{
+    height: 100px;
+}
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+.send{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 125px;
+    background-color: #cf6d17;
+    color: white;
+    border-radius: 200px;
+    padding: 10px 30px;
+}
+label{
+    width: 350px;
+}
+footer{
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+footer a{
+    float: left;
+    color: #666;
+    margin-right: 20px;
+}
+.icons ion-icon{
+    color: #666;
+    width: 25px;
+    margin-right: 20px;
+} 
+.icons a{
+    float: right;
+}
+footer p{
+    width: fit-content;
+    margin: auto;
+    color: #666;
+    display: block;
+}
+.instagram:hover{
+    color: magenta;
+    transition: color 0.2s;
+}
+.youtube:hover{
+    color: red;
+    transition: color 0.2s;
+}
+.twitter:hover{
+    color: lightblue;
+    transition: color 0.2s;
+}
+.facebook:hover{
+    color: navy;
+    transition: color 0.2s;
+}
+footer a:hover{
+    color: #999;
+}
